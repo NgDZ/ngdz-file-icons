@@ -25,7 +25,7 @@ fs.readdir("icons", function (err, items) {
 
 function appendIcon(icon, fl) {
     css += `
-.f-icon .` + icon + ` {
+.f-icon.` + icon + ` {
     background-image: url("icons/` + fl + `");
 }
         

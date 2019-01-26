@@ -1,3 +1,4 @@
+
 .f-icon {
     position: relative;
     display: inline-block;
@@ -6,101 +7,103 @@
 }
 
 
-.f-icon .accdb {
+.f-icon.accdb {
     background-image: url("icons/accdb.svg");
 }
-
-
-.f-icon .aspx {
+        
+        
+.f-icon.aspx {
     background-image: url("icons/aspx.svg");
 }
-
-
-.f-icon .asp {
+        
+        
+.f-icon.asp {
     background-image: url("icons/aspx.svg");
 }
-
-
-.f-icon .avi {
+        
+        
+.f-icon.avi {
     background-image: url("icons/avi.svg");
 }
-
-
-.f-icon .code {
+        
+        
+.f-icon.code {
     background-image: url("icons/code.svg");
 }
-
-
-.f-icon .docx {
+        
+        
+.f-icon.docx {
     background-image: url("icons/docx.svg");
 }
-
-
-.f-icon .doc {
+        
+        
+.f-icon.doc {
     background-image: url("icons/docx.svg");
 }
-
-
-.f-icon .exe {
+        
+        
+.f-icon.exe {
     background-image: url("icons/exe.svg");
 }
-
-
-.f-icon .file {
+        
+        
+.f-icon.file {
     background-image: url("icons/file.svg");
 }
-
-
-.f-icon .folder {
+        
+        
+.f-icon.folder {
     background-image: url("icons/folder.svg");
 }
-
-
-.f-icon .html {
+        
+        
+.f-icon.html {
     background-image: url("icons/html.svg");
 }
-
-
-.f-icon .jar {
+        
+        
+.f-icon.jar {
     background-image: url("icons/jar.svg");
 }
-
-
-.f-icon .jpg {
+        
+        
+.f-icon.jpg {
     background-image: url("icons/jpg.svg");
 }
-
-
-.f-icon .pdf {
+        
+        
+.f-icon.pdf {
     background-image: url("icons/pdf.svg");
 }
-
-
-.f-icon .pptx {
+        
+        
+.f-icon.pptx {
     background-image: url("icons/pptx.svg");
 }
-
-
-.f-icon .ppt {
+        
+        
+.f-icon.ppt {
     background-image: url("icons/pptx.svg");
 }
-
-
-.f-icon .xlsx {
+        
+        
+.f-icon.xlsx {
     background-image: url("icons/xlsx.svg");
 }
-
-
-.f-icon .xls {
+        
+        
+.f-icon.xls {
     background-image: url("icons/xlsx.svg");
 }
-
-
-.f-icon .xml {
+        
+        
+.f-icon.xml {
     background-image: url("icons/xml.svg");
 }
-
-
-.f-icon .zip {
+        
+        
+.f-icon.zip {
     background-image: url("icons/zip.svg");
 }
+        
+        
