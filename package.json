@@ -1,0 +1,20 @@
+{
+  "name": "ngdz-file-icons",
+  "version": "0.0.2",
+  "description": "\"# subset of vscode-icons \"",
+
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badre429/file-icons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badre429/file-icons/issues"
+  },
+  "homepage": "https://github.com/badre429/file-icons#readme"
+}
