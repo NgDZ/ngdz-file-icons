@@ -1,10 +1,9 @@
 var fs = require('fs');
-var css = `
-.f-icon {
+var css = `.f-icon {
     position: relative;
     display: inline-block;
-    line-height: 1em;
-    width: 0.72em;
+    min-height: 24px;
+    min-width: 24px;
 }
 
 `;
@@ -28,6 +27,6 @@ function appendIcon(icon, fl) {
 .f-icon.` + icon + ` {
     background-image: url("icons/` + fl + `");
 }
-        
+
         `;
 }
