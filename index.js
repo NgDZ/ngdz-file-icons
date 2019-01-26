@@ -7,6 +7,7 @@ var css = `.f-icon {
 }
 
 `;
+var all = [];
 fs.readdir("icons", function (err, items) {
 
     for (var i = 0; i < items.length; i++) {
@@ -20,13 +21,16 @@ fs.readdir("icons", function (err, items) {
     }
     console.log(css);
     fs.writeFileSync("main.css", css);
+    var tsFile = "export const ALL_FILES_ICONS=" + JSON.stringify(all) + ";";
+
+    fs.writeFileSync("consts.ts", tsFile);
 });
 
 function appendIcon(icon, fl) {
+    all.push(icon);
     css += `
 .f-icon.` + icon + ` {
     background-image: url("icons/` + fl + `");
 }
-
-        `;
+`;
 }

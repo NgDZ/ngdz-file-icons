@@ -1,0 +1,1 @@
+export const ALL_FILES_ICONS=["accdb","aspx","asp","avi","code","docx","doc","exe","file","folder","folder_opened","html","jar","jpg","mp3","pdf","pptx","ppt","xlsx","xls","xml","zip"];
