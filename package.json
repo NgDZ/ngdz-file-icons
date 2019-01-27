@@ -2,9 +2,8 @@
   "name": "ngdz-file-icons",
   "version": "0.0.5",
   "description": "\"# subset of vscode-icons \"",
-
   "scripts": {
-
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/badre429/file-icons/issues"
   },
-  "homepage": "https://github.com/badre429/file-icons#readme"
+  "homepage": "https://github.com/badre429/file-icons#readme",
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  }
 }

@@ -24,7 +24,7 @@ const b = /^(b|B)$/,
  * @param  {Object}  descriptor [Optional] Flags
  * @return {String}             Readable file size String
  */
-export function readableFileSize(arg, descriptor: any = {}) {
+export function readableFileSize(arg: any, descriptor: any = {}) {
   let result = [],
     val = 0,
     e,
@@ -85,7 +85,7 @@ export function readableFileSize(arg, descriptor: any = {}) {
   // Zero is now a special case because bytes divide by 1
   if (num === 0) {
     result[0] = 0;
-    result[1] = unix ? '' : symbol[standard][bits ? 'bits' : 'bytes'][e];
+    result[1] = unix ? '' : (<any>symbol)[standard][bits ? 'bits' : 'bytes'][e];
   } else {
     val = num / (base === 2 ? Math.pow(2, e * 10) : Math.pow(1000, e));
 
@@ -104,7 +104,7 @@ export function readableFileSize(arg, descriptor: any = {}) {
         ? bits
           ? 'kb'
           : 'kB'
-        : symbol[standard][bits ? 'bits' : 'bytes'][e];
+        : (<any>symbol)[standard][bits ? 'bits' : 'bytes'][e];
 
     if (unix) {
       result[1] =
@@ -145,7 +145,7 @@ export function readableFileSize(arg, descriptor: any = {}) {
   if (full) {
     result[1] = fullforms[e]
       ? fullforms[e]
-      : fullform[standard][e] +
+      : (<any>fullform)[standard][e] +
         (bits ? 'bit' : 'byte') +
         (result[0] === 1 ? '' : 's');
   }
@@ -158,4 +158,4 @@ export function readableFileSize(arg, descriptor: any = {}) {
 }
 
 // Partial application for functional programming
-readableFileSize.partial = opt => arg => readableFileSize(arg, opt);
+// readableFileSize.partial = opt => arg => readableFileSize(arg, opt);
