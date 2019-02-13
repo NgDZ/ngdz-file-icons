@@ -47,5 +47,5 @@ export function fileExtensionClass(ext: string) {
   } else if (isImage(ext)) {
     return 'f-icon jpg';
   }
-  return 'f-icon default';
+  return 'f-icon file';
 }
