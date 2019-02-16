@@ -1,6 +1,6 @@
 {
   "name": "ngdz-file-icons",
-  "version": "0.0.11",
+  "version": "0.0.14",
   "description": "\"# subset of vscode-icons \"",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badre429/file-icons.git"
+    "url": "git+https://github.com/ngdz/ngdz-file-icons.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/badre429/file-icons/issues"
+    "url": "https://github.com/ngdz/ngdz-file-icons/issues"
   },
-  "homepage": "https://github.com/badre429/file-icons#readme",
+  "homepage": "https://github.com/ngdz/ngdz-file-icons#readme",
   "devDependencies": {
     "typescript": "^3.2.4"
   }
